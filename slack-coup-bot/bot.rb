@@ -33,9 +33,7 @@ module SlackCoupBot
 
         command 'game lobby' do
           desc "Open a lobby for a game of Coup"
-          long_desc "Players can join an open Coup lobby with *game join*.\n" +
-          "4-6 players are required for Coup.\n"
-          + "Any player can start the game with *game start*"
+          long_desc "Players can join an open Coup lobby with *game join*.\n4-6 players are required for Coup.\nAny player can start the game with *game start*"
         end
 
         command 'game start' do
